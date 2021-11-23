@@ -1,0 +1,7 @@
+(erinner|benachrichtige) mich (an|über) {reminder} ((um|am) {timedate}|morgen|nach {date})
+füge (einen|) neuen (termin|arzttermin) {reminder} (um|für) {timedate} hinzu
+füge einen (termin|arzttermin) (für|zu) {reminder} (um|für) {timedate} hinzu
+(erinner|benachrichtige) mich über {reminder} (um|am) {timedate}
+(erinner|benachrichtige) mich zu {reminder} am {timedate}
+Füge (einen|) neuen (termin|arzttermin) {reminder} in {timedate} hinzu
+füge (einen|) (termin|arzttermin) {reminder} am {timedate} (hinzu|)
