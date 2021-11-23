@@ -20,7 +20,7 @@ class ArztterminSkill(MycroftSkill):
         if dt or self.response_is_affirmative(time_response):
             if not dt:
                 # No time specified
-                time = self.get_response('ParticularTime', on_fail='wait.for.answer', num_retries=-1) or ''
+                time = self.get_response('ParticularTime', on_fail='wait.for.answer', num_retries=-1)
                 dt, rest = extract_datetime(time) or None, None
                 if not dt:
                     self.speak_dialog('Fine')
@@ -59,7 +59,7 @@ class ArztterminSkill(MycroftSkill):
             if dt or self.response_is_affirmative(time_response):
                 if not dt:
                     # No time specified
-                    time = self.get_response('ParticularTime', on_fail='wait.for.answer', num_retries=-1) or ''
+                    time = self.get_response('ParticularTime', on_fail='wait.for.answer', num_retries=-1)
                     dt, rest = extract_datetime(time) or None, None
                     if not dt:
                         self.speak_dialog('Fine')
