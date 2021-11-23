@@ -43,7 +43,7 @@ class ArztterminSkill(MycroftSkill):
             date = day[-1] + '. ' + month[-1]
         else:
             # TODO: besser nach wiederholung fragen
-            date_response = self.get_response('ParticularDate', on_fail='wait.for.answer', num_retries=-1)
+            date_response = self.get_response('ParticularDateTwo', on_fail='wait.for.answer', num_retries=-1)
             day = [d for d in days if(d in date_response)]
             month = [m for m in months if(m in date_response)]
             date = day[-1] + '. ' + month[-1]
